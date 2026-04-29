@@ -1,0 +1,27 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /var/www/html/modulo10
+
+permissions:
+  - object: /var/www/html/modulo10
+    pattern: "**"
+    owner: apache
+    group: apache
+    mode: 755
+    type:
+      - file
+      - directory
+
+hooks:
+  BeforeInstall:
+    - location: scripts/install.sh
+      timeout: 300
+      runas: root
+
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 300
+      runas: root

@@ -10,6 +10,8 @@
 
 # production
 /build
+*.zip
+dev-server*.log
 
 # misc
 .DS_Store
