@@ -9,6 +9,9 @@ function App() {
         <p>
           Esse é meu Primeiro App.
         </p>
+        <p>
+          Aluno de Pós Fernando Lopes.
+        </p>
         <a
           className="App-link"
           href="http://comunidadecloud.com"
