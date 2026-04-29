@@ -1,3 +1,1 @@
-Apagar este frase e escrever outra aqui
-
-Esse arquivo é de instruções # aplicacao
+Versão Codedeploy 29/04/2026
