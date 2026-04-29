@@ -3,10 +3,10 @@ os: linux
 
 files:
   - source: /
-    destination: /var/www/html/modulo10
+    destination: /var/www/html
 
 permissions:
-  - object: /var/www/html/modulo10
+  - object: /var/www/html
     pattern: "**"
     owner: apache
     group: apache
