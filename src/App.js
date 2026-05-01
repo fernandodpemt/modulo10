@@ -10,7 +10,7 @@ function App() {
           Esse é meu Primeiro App.
         </p>
         <p>
-          Aluno de Pós-Graduação Kenny roger o lindão! BB 
+          Aluno de graduacao werley
         </p>
         <a
           className="App-link"
